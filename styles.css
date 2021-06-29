@@ -1,0 +1,79 @@
+@import url(https://fonts.googleapis.com/css?family=Ubuntu:400,400i,700);
+
+body {
+  margin: 0;
+  padding: 0;
+  background: #d9e3f1;
+  font-family: ubuntu;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  background: #1f1f2c;
+  color: #fff;
+}
+
+.github {
+  margin-left: 68rem;
+  color: #f6dfeb;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.github a {
+  color: #fff;
+}
+
+.linkedin a {
+  color: #fff;
+}
+
+.linkedin {
+  margin-left: 2rem;
+  color: #ffffff;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+header img {
+  width: 50px;
+  background: white;
+  border-radius: 5px;
+  margin: 0 20px 0 40px;
+}
+main h2 {
+  text-align: center;
+  font-size: 2.3rem;
+}
+
+article {
+  padding: 2rem;
+  background: #5b62f4;
+  width: 90%;
+  margin: 20px auto;
+  border-radius: 5rem;
+  color: #fff;
+  box-shadow: 12px 12px 16px 0 rgba(43, 39, 39, 0.3) inset,
+    -8px -8px 12px 0 rgba(0, 0, 0, 0.25) inset;
+  transition: background-color 0.15s ease-in-out, border 0.15s ease-in-out,
+    box-shadow 0.15s ease-in-out, color 0.15s ease-in-out;
+}
+
+hr,
+article .date {
+  color: rgba(226, 217, 217, 0.8);
+}
+
+footer {
+  color: #212125;
+  text-decoration: none;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  margin-bottom: 40px;
+}
+
+footer a {
+  color: #1d1b1b;
+}
